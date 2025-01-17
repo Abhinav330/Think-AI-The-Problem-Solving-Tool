@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://roger33303:$HF_TOKEN@huggingface.co/spaces/roger33303/Think_AI main
+        run: git push https://roger33303:$HF_TOKEN@huggingface.co/spaces/roger33303/Think-AI main
