@@ -1,0 +1,48 @@
+# Environment files
+.env
+
+# Virtual environments
+venv/
+env/
+
+# Compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE/Editor-specific
+.vscode/
+.idea/
+*.iml
+
+# Build and distribution
+/build/
+/dist/
+/*.egg-info
+
+# Temporary files
+*.bak
+*.swp
+*~
+
+# Dependency files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Test coverage
+.coverage
+coverage/
+*.cover
+*.coverage.*
+
+# Custom project files
+secrets.json
+config.local.json
